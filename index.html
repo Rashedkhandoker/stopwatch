@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Stopwatch</title>
+</head>
+
+<body
+    class="flex flex-col justify-center items-center h-screen bg-[url('https://shrm-res.cloudinary.com/image/upload/c_crop,h_624,w_1109,x_0,y_0/w_auto:100,w_1200,q_35,f_auto/v1/Legal%20and%20Compliance/time_clock2m_ypxg3e.jpg')] bg-no-repeat bg-cover bg-opacity-50 font-serif">
+    <header>
+
+        <h1 class="text-8xl text-center font-bold text-red-700 ">Stopwatch</h1>
+    </header>
+    <main>
+        <section class="w-1/2 mx-auto flex-col justify-items-center">
+            <div class="flex justify-center my-5">
+                <P class="text-9xl" id="time-field">0</P>
+            </div>
+            <div class=" flex justify-center text-neutral-50 my-10 ">
+                <button class="text-3xl py-2 px-4 mx-4 bg-teal-700 border rounded-lg" id="start-btn">Start</button>
+                <button class="text-3xl py-2 px-4 mx-4 bg-teal-700 border rounded-lg" id="stop-btn">Stop</button>
+                <button class="text-3xl py-2 px-4 mx-4 bg-teal-700 border rounded-lg" id="reset-btn">Reset</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
